@@ -1,0 +1,30 @@
+.sobre-la-serie {
+  background-image: url("../images/fondo-sobre-la-serie.jpg");
+}
+
+.sobre-titulo {
+  color: #00b5d0;
+  margin-left: 24px;
+}
+
+.sobre-informacion {
+  width: 50%;
+  margin-top: 60px;
+}
+
+.sobre-texto {
+  margin-top: 10px;
+}
+
+.sobre-informacion-derecha {
+  align-self: flex-end;
+}
+
+.sobre-texto-extra {
+  color: white;
+  font-size: 11px;
+  width: 50%;
+  position: absolute;
+  bottom: 40px;
+  font-weight: 200;
+}

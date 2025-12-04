@@ -1,0 +1,33 @@
+.fondo-404 {
+  background-image: url("../images/fondo-404.jpg");
+}
+
+.titulo-404 {
+  color: white;
+  font-size: 200px;
+  margin: 0px;
+  height: 200px;
+}
+
+.descripcion-404 {
+  color: white;
+  margin-top: 50px;
+}
+
+.boton-404 {
+  color: white;
+  font-size: 30px;
+  background-color: #5ddf23;
+  width: 400px;
+  height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  align-self: center;
+  margin-top: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 3px 5px 24px 5px rgba(93, 223, 35, 0.88);
+  box-shadow: 3px 5px 24px 5px rgba(93, 223, 35, 0.88);
+}

@@ -1,0 +1,40 @@
+.reparto {
+  background-image: url("../images/fondo-reparto.jpg");
+}
+
+.reparto-personas {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.reparto-persona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reparto-foto {
+  width: 220px;
+}
+
+.reparto-info {
+  position: relative;
+  bottom: 40px;
+}
+
+.reparto-nombre {
+  color: #0b2849;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.reparto-descripcion {
+  color: black;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+}

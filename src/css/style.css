@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "AloeveraDisplay";
+  src: url("../fonts/WOFF2/AloeveraDisplay-Black.woff2") format("woff2"),
+    url("../fonts/WOFF/AloeveraDisplay-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AloeveraDisplay";
+  src: url("../fonts/WOFF2/AloeveraDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/WOFF/AloeveraDisplay-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AloeveraDisplay";
+  src: url("../fonts/WOFF2/AloeveraDisplay-ExtraBold.woff2") format("woff2"),
+    url("../fonts/WOFF/AloeveraDisplay-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AloeveraDisplay";
+  src: url("../fonts/WOFF2/AloeveraDisplay-ExtraLight.woff2") format("woff2"),
+    url("../fonts/WOFF/AloeveraDisplay-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AloeveraDisplay";
+  src: url("../fonts/WOFF2/AloeveraDisplay-Light.woff2") format("woff2"),
+    url("../fonts/WOFF/AloeveraDisplay-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AloeveraDisplay";
+  src: url("../fonts/WOFF2/AloeveraDisplay-Medium.woff2") format("woff2"),
+    url("../fonts/WOFF/AloeveraDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AloeveraDisplay";
+  src: url("../fonts/WOFF2/AloeveraDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/WOFF/AloeveraDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AloeveraDisplay";
+  src: url("../fonts/WOFF2/AloeveraDisplay-SemiBold.woff2") format("woff2"),
+    url("../fonts/WOFF/AloeveraDisplay-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AloeveraDisplay";
+  src: url("../fonts/WOFF2/AloeveraDisplay-Thin.woff2") format("woff2"),
+    url("../fonts/WOFF/AloeveraDisplay-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "AloeveraDisplay", sans-serif;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+}
+
+nav {
+  background: white;
+  padding: 14px 30px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 2px;
+  -webkit-box-shadow: -1px 6px 11px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: -1px 6px 11px 0px rgba(0, 0, 0, 0.19);
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 11px;
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+
+.nav-link-activo {
+  font-size: 13px;
+  font-weight: 400;
+  background-image: url("../images/fondo-barra-de-navegacion.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.seccion {
+  padding: 80px 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #00b5d0;
+  text-align: center;
+  font-weight: 500;
+}
+
+p {
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+}

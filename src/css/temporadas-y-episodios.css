@@ -1,0 +1,65 @@
+.temporadas-y-episodios {
+  background-image: url("../images/fondo-temporadas-y-episodios-1.jpg");
+}
+
+.temporadas-y-episodios-2 {
+  background-image: url("../images/fondo-temporadas-y-episodios-2.jpg");
+}
+
+.temporadas {
+  width: 90%;
+  max-width: 1024px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  row-gap: 30px;
+}
+
+.temporadas-2 {
+  row-gap: 180px;
+}
+
+.temporada {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.temporada-imagen {
+  width: 60px;
+}
+
+.temporada-imagen-2 {
+  width: 90px;
+}
+
+.temporada-imagen-4 {
+  width: 90px;
+}
+
+.temporada-imagen-7 {
+  width: 80px;
+}
+
+.temporada-titulo {
+  color: #0b2849;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 14px;
+}
+
+.temporada-fecha-y-cantidad {
+  color: #0b2849;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 14px;
+}
+
+.temporada-texto {
+  color: black;
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: 2px;
+}
