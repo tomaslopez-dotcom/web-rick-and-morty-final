@@ -10,7 +10,7 @@
 .sobre-informacion {
   width: 50%;
   margin-top: 60px;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(50px);
   background-color: #052a2360;
   padding: 1rem;
   border-radius: 1rem;
