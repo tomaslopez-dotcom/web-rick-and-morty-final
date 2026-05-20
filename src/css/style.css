@@ -295,6 +295,11 @@ ul {
   gap: 20px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  margin-top: 60px;
+  backdrop-filter: blur(50px);
+  background-color: #0187ff;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .temporada:hover {
