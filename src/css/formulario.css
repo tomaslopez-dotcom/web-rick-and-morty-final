@@ -1,5 +1,6 @@
 .fondo-formulario {
   background-image: url("../images/FONDO\ FORMULARIO\ BURGER.jpg");
+  background-size: contain
 }
 fieldset {
   display: flex;
