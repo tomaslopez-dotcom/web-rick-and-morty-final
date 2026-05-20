@@ -293,9 +293,9 @@ ul {
   min-height: 30rem;
   display: flex;
   align-items: flex-end;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   justify-content: flex-start;
-  padding-left: 2rem;
+  padding-left: 4rem;
   gap: 20px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
