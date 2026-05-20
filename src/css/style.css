@@ -303,6 +303,9 @@ ul {
   padding: 1rem;
   border-radius: 1rem;
   background-image: url(../images/imagen\ predio.jpg);
+  background-size: cover;   
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .temporada:hover {
