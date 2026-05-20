@@ -96,7 +96,7 @@ body {
 }
 
 header {
-  padding: 10px;
+  padding: 5%;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -120,7 +120,7 @@ nav {
 .nav-link {
   color: black;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 5%;
   padding: 0px 8px;
   border-radius: 4px;
   transition: all 0.15s ease-in-out;
@@ -131,7 +131,7 @@ nav {
 }
 
 .nav-link-activo {
-  font-size: 13px;
+  font-size: 5%;
   font-weight: 400;
   background-image: url("../images/fondo-barra-de-navegacion.png");
   background-size: cover;
@@ -150,12 +150,12 @@ nav {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 20%;
   text-align: center;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 10%;
   color: #00b5d0;
   text-align: center;
   font-weight: 500;
@@ -163,7 +163,7 @@ h2 {
 
 p {
   color: rgb(255, 255, 255);
-  font-size: 14px;
+  font-size: 5%;
   font-weight: 100;
 }
 
