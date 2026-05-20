@@ -329,6 +329,7 @@ ul {
   min-height: 30rem;
   display: flex;
   align-items: center;
+  grid-column: span 2;
   gap: 20px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
