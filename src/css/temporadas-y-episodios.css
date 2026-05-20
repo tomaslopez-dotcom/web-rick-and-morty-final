@@ -14,12 +14,7 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 100px;
   row-gap: 30px;
-  width: 50%;
-  margin-top: 60px;
-  backdrop-filter: blur(50px);
-  background-color: #052a2360;
-  padding: 1rem;
-  border-radius: 1rem;
+  
 }
 
 .temporadas-2 {
@@ -33,6 +28,12 @@
   gap: 20px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  width: 50%;
+  margin-top: 60px;
+  backdrop-filter: blur(50px);
+  background-color: #052a2360;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .temporada:hover {
