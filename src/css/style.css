@@ -301,6 +301,7 @@ ul {
   background-color: #0187ff;
   padding: 1rem;
   border-radius: 1rem;
+  background-image: url(../images/fondo\ sobre\ el\ evento.jpg);
 }
 
 .temporada:hover {
