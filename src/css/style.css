@@ -476,3 +476,175 @@ legend {
   border-radius: 100px;
   font-weight: 500;
 }
+
+
+
+
+
+
+
+
+
+.contacto {
+  padding: 100px 48px;
+  background-color: #F4ECE7;
+}
+
+
+.contacto_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 88px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.contacto_info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contacto_texto {
+  max-width: 340px;
+  font-size: 16px;
+  padding-top: 16px;
+  line-height: 1.7;
+  color: var(--color-negro);
+  margin-bottom: 32px;
+}
+
+.contacto_datos {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contacto_dato {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: var(--color-negro);
+}
+
+.contacto_dato img {
+  width: 20px;
+  height: 20px;
+}
+
+
+.contacto_formulario {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacto_fila {
+  display: flex;
+  gap: 16px;
+}
+
+.contacto_grupo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contacto_grupo label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-primario);
+}
+
+.contacto_grupo input,
+.contacto_grupo textarea {
+  border: none;
+  background-color: var(--color-blanco);
+  border-radius: 12px;
+  padding: 16px;
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--color-primario);
+}
+
+.contacto_grupo textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.contacto_grupo input:focus,
+.contacto_grupo textarea:focus {
+  outline: 2px solid #FFDBCF;
+}
+
+.contacto_boton {
+  font-family: epilogue;
+  align-self: flex-start;
+  border: none;
+  margin-top: 12px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background-color: var(--color-naranja);
+  color: var(--color-primario-oscuro);
+  padding: 16px 40px;
+  border-radius: 32px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.contacto_boton:hover {
+ color: var(--color-blanco);
+  background-color: var(--color-primario);
+  transform: translateY(-2px);
+}
+
+
+/**************FOOTER**************/
+.footer {
+  background-color: #171313;
+  padding: 56px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.logo_footer {
+  width: 130px;
+}
+
+.footer_redes {
+  display: flex;
+  gap: 16px;
+}
+
+.footer_redes img {
+  width: 40px;
+  height: 40px;
+  opacity: 0.7;
+  transition: 0.2s ease;
+}
+
+.footer_redes img:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.footer_copy {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+}
