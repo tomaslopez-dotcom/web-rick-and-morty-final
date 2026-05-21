@@ -190,13 +190,6 @@ footer {
   height: 160px;
 }
 
-/* ── SOCIAL ICONS ── */
-ul {
-  list-style: none;
-  width: fit-content;
-  margin: 300px auto 0;
-  padding: 0;
-}
 
 .example-1 {
   display: flex;
