@@ -190,7 +190,9 @@ footer {
   height: 160px;
 }
 
-
+.ul{
+  align-items: center;
+}
 .example-1 {
   display: flex;
   justify-content: center;
