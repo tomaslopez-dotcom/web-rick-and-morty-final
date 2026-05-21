@@ -108,27 +108,37 @@
 
   
    
-<section class="seccion fondo-formulario">
-  <form class="relleno" action="confirmacion.html">
-    <fieldset class="relleno">
-      <legend>Datos Personales</legend>
-      <div class="grupo">
-        <label>Complete su Nombre</label>
-        <input placeholder="Nombre y Apellido" type="text" required />
+<section>
+  <body class="fondo-formulario">
+   
+
+    <form class="relleno" action="confirmacion.html">
+      <fieldset class="relleno">
+        <legend>Datos Personales</legend>
+        <div class="grupo">
+          <label> Complete su Nombre </label>
+          <input placeholder="Nombre y Apellido" type="text" required />
+        </div>
+        <div class="grupo">
+          <label> Complete su correo electronico </label>
+          <input placeholder="Ejemplo@Gmail.com" type="email" required />
+        </div>
+        <div class="grupo">
+          <label> Deja un mensaje </label>
+          <textarea
+            placeholder="Ingresar el mensaje..."
+            name=""
+            rows="6"
+          ></textarea>
+        </div>
+      </fieldset>
+      <div class="formulario-contenedor-boton">
+        <button class="formulario-boton">Enviar</button>
       </div>
-      <div class="grupo">
-        <label>Complete su correo electronico</label>
-        <input placeholder="Ejemplo@Gmail.com" type="email" required />
-      </div>
-      <div class="grupo">
-        <label>Deja un mensaje</label>
-        <textarea placeholder="Ingresar el mensaje..." rows="6"></textarea>
-      </div>
-    </fieldset>
-    <div class="formulario-contenedor-boton">
-      <button class="formulario-boton">Enviar</button>
-    </div>
-  </form>
+    </form>
+
+    
+ 
 </section>
  
 </html>
