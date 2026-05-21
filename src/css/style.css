@@ -6,7 +6,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AloeveraDisplay";
   src: url("../fonts/WOFF2/AloeveraDisplay-Bold.woff2") format("woff2"),
@@ -15,7 +14,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AloeveraDisplay";
   src: url("../fonts/WOFF2/AloeveraDisplay-ExtraBold.woff2") format("woff2"),
@@ -24,7 +22,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AloeveraDisplay";
   src: url("../fonts/WOFF2/AloeveraDisplay-ExtraLight.woff2") format("woff2"),
@@ -33,7 +30,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AloeveraDisplay";
   src: url("../fonts/WOFF2/AloeveraDisplay-Light.woff2") format("woff2"),
@@ -42,7 +38,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AloeveraDisplay";
   src: url("../fonts/WOFF2/AloeveraDisplay-Medium.woff2") format("woff2"),
@@ -51,7 +46,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AloeveraDisplay";
   src: url("../fonts/WOFF2/AloeveraDisplay-Regular.woff2") format("woff2"),
@@ -60,7 +54,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AloeveraDisplay";
   src: url("../fonts/WOFF2/AloeveraDisplay-SemiBold.woff2") format("woff2"),
@@ -69,7 +62,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AloeveraDisplay";
   src: url("../fonts/WOFF2/AloeveraDisplay-Thin.woff2") format("woff2"),
@@ -95,14 +87,16 @@ body {
   font-family: "AloeveraDisplay", sans-serif;
 }
 
+/* ── HEADER / NAV ── */
 header {
   padding: 10px;
   display: flex;
   justify-content: end;
   align-items: center;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
+  z-index: 10;
 }
 
 nav {
@@ -112,8 +106,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0px 2px;
-  -webkit-box-shadow: -1px 6px 11px 0px rgba(0, 0, 0, 0.19);
+  gap: 0 2px;
   box-shadow: -1px 6px 11px 0px rgba(0, 0, 0, 0.19);
 }
 
@@ -121,7 +114,7 @@ nav {
   color: black;
   text-decoration: none;
   font-size: 11px;
-  padding: 0px 8px;
+  padding: 0 8px;
   border-radius: 4px;
   transition: all 0.15s ease-in-out;
 }
@@ -139,16 +132,18 @@ nav {
   background-position: center;
 }
 
+/* ── SECCIONES ── */
 .seccion {
   padding: 80px 40px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 100vh; 
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+/* ── TIPOGRAFÍA ── */
 h1 {
   font-size: 60px;
   text-align: center;
@@ -168,6 +163,11 @@ p {
   font-weight: 100;
 }
 
+.title-blanco {
+  color: #ffffff;
+}
+
+/* ── FOOTER ── */
 footer {
   background-image: url("../images/fondo-contacto.jpg");
   background-size: cover;
@@ -179,12 +179,12 @@ footer {
   height: 160px;
 }
 
+/* ── SOCIAL ICONS ── */
 ul {
   list-style: none;
   width: fit-content;
-  margin: 0 auto;
+  margin: 300px auto 0;
   padding: 0;
-  margin-top: 300px;
 }
 
 .example-1 {
@@ -197,7 +197,6 @@ ul {
   padding: 20px;
   height: 70px;
   width: 300px;
-  margin: 0px;
 }
 
 .example-1 .icon-content {
@@ -252,134 +251,57 @@ ul {
   fill: #fff;
 }
 
-.example-1 .icon-content .link[data-social="spotify"]:hover {
-  color: #00a2ff;
-}
+.example-1 .icon-content .link[data-social="spotify"]:hover  { color: #00a2ff; }
+.example-1 .icon-content .link[data-social="pinterest"]:hover { color: #ff009d; }
+.example-1 .icon-content .link[data-social="dribbble"]:hover  { color: #686868; }
+.example-1 .icon-content .link[data-social="telegram"]:hover  { color: #23b100; }
 
-.example-1 .icon-content .link[data-social="pinterest"]:hover {
-  color: #ff009d;
-}
-
-.example-1 .icon-content .link[data-social="dribbble"]:hover {
-  color: #686868;
-}
-
-.example-1 .icon-content .link[data-social="telegram"]:hover {
-  color: #23b100;
-}
+/* ── TEMPORADAS ── */
 .temporadas-y-episodios {
-  background-image: url("../images/fondo\ sobre\ el\ evento.jpg");
-  height: auto;
-}
-
-.temporadas-y-episodios-2 {
-  background-image: url("../images/fondo\ sobre\ el\ evento\ 2.jpg");
+  background-image: url("../images/fondo sobre el evento.jpg");
   height: auto;
 }
 
 .temporadas {
-  width: 95%;           /* antes era 90% */
-  max-width: 1400px;    /* antes era 1024px */
+  width: 95%;
+  max-width: 1400px;
   margin: 30px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 40px;     /* podés reducir el gap también */
+  column-gap: 40px;
   row-gap: 30px;
 }
-.temporadas-2 {
-  row-gap: 180px;
-}
 
-.temporada-1 {
-  width: 100%;
-  min-height: 30rem;
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 6rem;
-  justify-content: flex-start;
-  padding-left: 6rem;
-  gap: 20px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  margin-top: 60px;
-  backdrop-filter: blur(50px);
-  background-color: #0187ff;
-  padding: 1rem;
-  border-radius: 1rem;
-  background-image: url(../images/imagen\ predio.jpg);
-  background-size: cover;   
-  background-position: center; 
-  background-repeat: no-repeat;
-}
-.temporada-2 {
-  width: 100%;
-  min-height: 30rem;
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 6rem;
-  justify-content: flex-start;
-  padding-left: 6rem;
-  gap: 20px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  margin-top: 60px;
-  backdrop-filter: blur(50px);
-  background-color: #0187ff;
-  padding: 1rem;
-  border-radius: 1rem;
-  background-image: url(../images/competencia\ burger.jpg);
-  background-size: cover;   
-  background-position: center; 
-  background-repeat: no-repeat;
-}
+.temporada-1,
+.temporada-2,
 .temporada-3 {
   width: 100%;
   min-height: 30rem;
   display: flex;
   align-items: flex-end;
-  padding-bottom: 6rem;
-  justify-content: flex-start;
-  padding-left: 6rem;
-  grid-column: span 2;
   gap: 20px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   margin-top: 60px;
-  backdrop-filter: blur(50px);
-  background-color: #0187ff;
-  padding: 1rem 6rem;
+  padding: 1rem;
   border-radius: 1rem;
-  background-image: url(../images/imagen\ predio.jpg);
-  background-size: cover;   
-  background-position: center; 
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
-.temporada-1:hover {
-  transform: scale(1.1);
+.temporada-1 { background-image: url(../images/imagen\ predio.jpg); }
+.temporada-2 { background-image: url(../images/competencia\ burger.jpg); }
+.temporada-3 {
+  background-image: url(../images/imagen\ predio.jpg);
+  grid-column: span 2;
+  padding: 1rem 6rem;
 }
-.temporada-2:hover {
-  transform: scale(1.1);
-}
+
+.temporada-1:hover,
+.temporada-2:hover,
 .temporada-3:hover {
-  transform: scale(1.1);
-}
-
-
-.temporada-imagen {
-  width: 60px;
-}
-
-.temporada-imagen-2 {
-  width: 90px;
-}
-
-.temporada-imagen-4 {
-  width: 90px;
-}
-
-.temporada-imagen-7 {
-  width: 80px;
+  transform: scale(1.05);
 }
 
 .temporada-titulo {
@@ -401,23 +323,15 @@ ul {
   font-weight: 400;
   font-size: 10px;
   margin-top: 2px;
- } 
-.title-blanco{
-  color: #ffffff;
 }
 
-
-
-
-
-
-
-
+/* ── FORMULARIO ── */
 .fondo-formulario {
-  background-image: url("../images/FONDO\ FORMULARIO\ BURGER.jpg");
-  background-size: contain
-
+  background-image: url("../images/FONDO FORMULARIO BURGER.jpg");
+  background-size: cover;
+  height: auto;
 }
+
 fieldset {
   display: flex;
   flex-direction: column;
@@ -426,6 +340,7 @@ fieldset {
 .relleno {
   margin-bottom: 24px;
 }
+
 .relleno,
 input {
   padding: 15px;
@@ -439,22 +354,22 @@ textarea {
 }
 
 form {
-  border: 2px solid whithe;
+  border: 2px solid white;
   backdrop-filter: invert(1);
   width: 45%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 80px auto 0;
   font-size: 2rem;
-  margin-top: 80px;
 }
 
 label,
 legend {
   color: black;
 }
+
 .grupo {
-  display: flex !important;
-  flex-direction: column !important;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   margin-bottom: 25px;
 }
@@ -467,7 +382,7 @@ legend {
 .formulario-contenedor-boton {
   display: flex;
   justify-content: end;
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 .formulario-boton {
@@ -478,4 +393,5 @@ legend {
   border: none;
   border-radius: 100px;
   font-weight: 500;
+  cursor: pointer;
 }

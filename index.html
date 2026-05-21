@@ -3,63 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./src/icons/favicon.ico"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./src/icons/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/home.css" />
-    <title>Home - Rick and Morty</title>
+    <title>Home - Burger Palusa</title>
   </head>
   <body>
+
     <header>
       <nav>
         <a class="nav-link nav-link-activo" href="./index.html">Home</a>
-        <a class="nav-link" href="./src/pages/sobre-la-serie.html"
-          >Sobre la Serie</a
-        >
+        <a class="nav-link" href="./src/pages/sobre-la-serie.html">Sobre la Serie</a>
         <a class="nav-link" href="./src/pages/sobre-la-serie.html">Reparto</a>
-        <a class="nav-link" href="./src/pages/temporadas-y-episodios.html"
-          >Temporadas y episodios</a
-        >
-        <a class="nav-link" href="./src/pages/eventos-y-curiosidades.html"
-          >Eventos y Curiosidades</a
-        >
+        <a class="nav-link" href="./src/pages/temporadas-y-episodios.html">Temporadas y episodios</a>
+        <a class="nav-link" href="./src/pages/eventos-y-curiosidades.html">Eventos y Curiosidades</a>
         <a class="nav-link" href="./src/pages/formulario.html">Formulario</a>
       </nav>
     </header>
 
+    <!-- BANNER -->
     <section class="banner">
       <div class="banner-info">
-        <img
-          class="banner-logo"
-          src="./src/images/burger palusa.png"
-          alt="Logo Rick and Morty"
-        />
-
+        <img class="banner-logo" src="./src/images/burger palusa.png" alt="Logo Burger Palusa" />
         <p class="banner-texto">
           Burger Palusa es el festival gastronómico donde la hamburguesa
-          es la gran protagonista. Un evento único que reúne a los mejores 
+          es la gran protagonista. Un evento único que reúne a los mejores
           cocineros y hamburgueserías para que disfrutes de sabores increíbles,
           shows en vivo y una experiencia que no vas a olvidar. Vení a vivir la
           fiesta de la hamburguesa perfecta.
         </p>
       </div>
-
-      <img
-        class="banner-imagen"
-        src="./src/images/que-es-una-smashburger-1200x977-Photoroom.png"
-        alt="Rick and Morty"
-      />
+      <img class="banner-imagen" src="./src/images/que-es-una-smashburger-1200x977-Photoroom.png" alt="Burger Palusa" />
     </section>
 
-
-
-
- <section class="seccion temporadas-y-episodios">
-      <h1 class="tilte-blanco">Sobre el Evento</h1>
+    <!-- SOBRE EL EVENTO -->
+    <section class="seccion temporadas-y-episodios">
+      <h1 class="title-blanco">Sobre el Evento</h1>
       <div class="temporadas">
+
         <div class="temporada-1">
           <div class="temporada-info">
             <h5 class="temporada-titulo">Temporada 1</h5>
@@ -67,28 +48,24 @@
             <p class="temporada-texto">
               Una introducción explosiva al caos multiversal: Rick y Morty se
               embarcan en viajes que mezclan ciencia ficción, humor oscuro y
-              dilemas éticos, estableciendo la base del tono irreverente de la
-              serie.
+              dilemas éticos, estableciendo la base del tono irreverente de la serie.
             </p>
           </div>
         </div>
 
         <div class="temporada-2">
-         
           <div class="temporada-info">
             <h5 class="temporada-titulo">Temporada 2</h5>
             <p class="temporada-fecha-y-cantidad">(2015) – 10 episodios</p>
             <p class="temporada-texto">
               Se profundiza en las complejidades del multiverso: conflictos
               morales más oscuros, personajes secundarios que crecen y episodios
-              más experimentales en narrativa. Cada aventura supera los límites
-              de lo absurdo mientras mantiene la chispa humorística.
+              más experimentales en narrativa.
             </p>
           </div>
         </div>
 
         <div class="temporada-3">
-         
           <div class="temporada-info">
             <h5 class="temporada-titulo">Temporada 3</h5>
             <p class="temporada-fecha-y-cantidad">(2017) – 10 episodios</p>
@@ -96,55 +73,37 @@
               Rick y Morty enfrentan consecuencias más serias del multiverso:
               conflictos internos entre la familia, la exploración de los
               límites del poder de Rick y episodios que ya no solo buscan el
-              chiste, sino también emocionar y sorprender. Un punto de inflexión
-              en la narrativa donde lo absurdo convive con lo profundo.
+              chiste, sino también emocionar y sorprender.
             </p>
           </div>
         </div>
 
-       
       </div>
     </section>
 
-  
-   
-<section class="fondo-formulario">
-   <div class="fondo-formulario">
-    <form class="relleno" action="confirmacion.html">
-      <fieldset class="relleno">
-        <legend>Datos Personales</legend>
-        <div class="grupo">
-          <label> Complete su Nombre </label>
-          <input placeholder="Nombre y Apellido" type="text" required />
+    <!-- FORMULARIO -->
+    <section class="seccion fondo-formulario">
+      <form class="relleno" action="confirmacion.html">
+        <fieldset class="relleno">
+          <legend>Datos Personales</legend>
+          <div class="grupo">
+            <label>Complete su Nombre</label>
+            <input placeholder="Nombre y Apellido" type="text" required />
+          </div>
+          <div class="grupo">
+            <label>Complete su correo electronico</label>
+            <input placeholder="Ejemplo@Gmail.com" type="email" required />
+          </div>
+          <div class="grupo">
+            <label>Deja un mensaje</label>
+            <textarea placeholder="Ingresar el mensaje..." rows="6"></textarea>
+          </div>
+        </fieldset>
+        <div class="formulario-contenedor-boton">
+          <button class="formulario-boton">Enviar</button>
         </div>
-        <div class="grupo">
-          <label> Complete su correo electronico </label>
-          <input placeholder="Ejemplo@Gmail.com" type="email" required />
-        </div>
-        <div class="grupo">
-          <label> Deja un mensaje </label>
-          <textarea
-            placeholder="Ingresar el mensaje..."
-            name=""
-            rows="6"
-          ></textarea>
-        </div>
-      </fieldset>
-      <div class="formulario-contenedor-boton">
-        <button class="formulario-boton">Enviar</button>
-      </div>
-    </form>
-   </div> 
-  
+      </form>
+    </section>
 
-    
- 
-</section>
- 
-</html>
-
-  
-    
-    
   </body>
 </html>
