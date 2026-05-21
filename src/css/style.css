@@ -87,17 +87,7 @@ body {
   font-family: "AloeveraDisplay", sans-serif;
 }
 
-/* ── HEADER / NAV ── */
-header {
-  padding: 10px;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 10;
-}
+
 
 /**************NAVBAR**************/
 .navbar {
@@ -109,49 +99,29 @@ header {
   padding: 20px 48px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background: #1e1b1b18;
+  justify-content: flex-end;
+  background: rgba(30, 27, 27, 0.25);
   backdrop-filter: blur(8px);
-}
-
-.navbar_logo {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 3px;
-  text-decoration: none;
-}
-
-.navbar_logo img {
-  height: 32px;
-  width: auto;
-  display: block;
+  gap: 40px;
 }
 
 .navbar_links {
   display: flex;
   gap: 36px;
   list-style: none;
-  text-transform: uppercase;
-  color: var(--color-blanco);
 }
 
 .navbar_links a {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.7px;
-  color: var(--color-naranja);
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .navbar_links a:hover {
-  color: var(--color-primario);
-}
-
-.navbar_links a:active {
-  color:var(--color-primario);
-  text-decoration: none;
+  color: #f2ff00;
 }
 
 .navbar_cta {
@@ -160,16 +130,16 @@ header {
   font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
-  background-color: var(--color-primario);
-  color: var(--color-blanco);
-  padding: 16px 40px;
+  background-color: #5ddf23;
+  color: #ffffff;
+  padding: 12px 28px;
   border-radius: 32px;
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .navbar_cta:hover {
-  color: var(--color-primario-oscuro);
-  background-color: var(--color-naranja);
+  background-color: #f2ff00;
+  color: #000000;
   transform: translateY(-2px);
 }
 
