@@ -144,7 +144,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
 }
